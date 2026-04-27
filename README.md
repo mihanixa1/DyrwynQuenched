@@ -1,6 +1,6 @@
-# DyrwynQuenched
+# DyrnwynQuenched
 
-Removes the fire particle animation from the **Dyrwyn** sword in Valheim.
+Removes the fire particle animation from the **Dyrnwyn** sword in Valheim.
 The blade's emissive glow and point light are preserved — the sword still looks hot, just without the animated flames.
 
 ## Requirements
@@ -14,7 +14,7 @@ Install via the mod manager — dependencies are handled automatically.
 
 ### Manual
 1. Install BepInExPack Valheim.
-2. Copy `DyrwynQuenched.dll` to `<Valheim>/BepInEx/plugins/DyrwynQuenched/`.
+2. Copy `DyrnwynQuenched.dll` to `<Valheim>/BepInEx/plugins/DyrnwynQuenched/`.
 3. Launch the game.
 
 ## Building from source
@@ -24,4 +24,4 @@ Install via the mod manager — dependencies are handled automatically.
 dotnet build DyrwynQuenched/DyrwynQuenched.csproj -p:ValheimDir="C:\...\Valheim"
 ```
 
-Output: `DyrwynQuenched/bin/DyrwynQuenched.dll`
+Output: `DyrwynQuenched/bin/DyrnwynQuenched.dll`

@@ -2,13 +2,13 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace DyrwynQuenched
+namespace DyrnwynQuenched
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGUID    = "com.dyrwyn.quenched";
-        public const string PluginName    = "DyrwynQuenched";
+        public const string PluginGUID    = "com.dyrnwyn.quenched";
+        public const string PluginName    = "DyrnwynQuenched";
         public const string PluginVersion = "1.0.0";
 
         internal static ManualLogSource Log;

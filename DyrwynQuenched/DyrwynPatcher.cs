@@ -1,7 +1,7 @@
 using HarmonyLib;
 using UnityEngine;
 
-namespace DyrwynQuenched
+namespace DyrnwynQuenched
 {
     [HarmonyPatch(typeof(ZNetScene), "Awake")]
     internal static class ZNetScene_Awake_Patch
@@ -11,7 +11,7 @@ namespace DyrwynQuenched
             var prefab = __instance.GetPrefab("SwordDyrnwyn");
             if (prefab == null)
             {
-                Plugin.Log.LogWarning("[DyrwynQuenched] SwordDyrwyn prefab not found in ZNetScene.");
+                Plugin.Log.LogWarning("[DyrnwynQuenched] SwordDyrnwyn prefab not found in ZNetScene.");
                 return;
             }
 
@@ -26,7 +26,7 @@ namespace DyrwynQuenched
                 ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             }
 
-            Plugin.Log.LogInfo("[DyrwynQuenched] Fire particles quenched.");
+            Plugin.Log.LogInfo("[DyrnwynQuenched] Fire particles quenched.");
         }
     }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "DyrwynQuenched",
+    "name": "DyrnwynQuenched",
     "version_number": "1.0.0",
     "website_url": "https://github.com/mihanixa1/DyrwynQuenched",
-    "description": "Removes fire particle animation from the Dyrwyn sword while keeping the blade glow.",
+    "description": "Removes fire particle animation from the Dyrnwyn sword while keeping the blade glow.",
     "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2202"
     ]

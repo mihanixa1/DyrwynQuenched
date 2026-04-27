@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyName>DyrwynQuenched</AssemblyName>
-    <RootNamespace>DyrwynQuenched</RootNamespace>
+    <AssemblyName>DyrnwynQuenched</AssemblyName>
+    <RootNamespace>DyrnwynQuenched</RootNamespace>
     <Nullable>disable</Nullable>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
