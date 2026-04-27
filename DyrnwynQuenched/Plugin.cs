@@ -9,7 +9,7 @@ namespace DyrnwynQuenched
     {
         public const string PluginGUID    = "com.dyrnwyn.quenched";
         public const string PluginName    = "DyrnwynQuenched";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         internal static ManualLogSource Log;
 
