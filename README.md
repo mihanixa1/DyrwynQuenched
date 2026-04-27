@@ -21,7 +21,7 @@ Install via the mod manager — dependencies are handled automatically.
 
 ```
 # Set your Valheim install path
-dotnet build DyrwynQuenched/DyrwynQuenched.csproj -p:ValheimDir="C:\...\Valheim"
+dotnet build DyrnwynQuenched/DyrnwynQuenched.csproj -p:ValheimDir="C:\...\Valheim"
 ```
 
-Output: `DyrwynQuenched/bin/DyrnwynQuenched.dll`
+Output: `DyrnwynQuenched/bin/DyrnwynQuenched.dll`
