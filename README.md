@@ -1,5 +1,7 @@
 # DyrnwynQuenched
 
+![Example](icon.png)
+
 Removes the fire particle animation from the **Dyrnwyn** sword in Valheim.
 The blade's emissive glow and point light are preserved — the sword still looks hot, just without the animated flames.
 
